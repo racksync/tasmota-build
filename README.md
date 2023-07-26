@@ -2,6 +2,17 @@
 
 [![tasmota-build-release](https://img.shields.io/github/v/release/racksync/tasmota-build)](https://github.com/racksync/tasmota-build) [![last commit](https://img.shields.io/github/last-commit/racksync/tasmota-build)](https://github.com/racksync/tasmota-build)
 
+# วัตถุประสงค์:
+เชื่อว่าหลายท่านน่าจะประสบแบบเดียวกันเยอะ คือเมื่อ flash tasmota ลงไปบน iot device แล้วจะต้องมานั่งเซ็ทอัพค่าพื้นฐาน เช่น teleperiod, timezone, powercycle disable และค่าอื่นๆ อีกมากมาย ซึ่งค่อนข้างใช้เวลาพอสมควร แถมเมื่ออุปกรณ์มีการ reset ตัวอุปกรณ์ ค่าดังกล่าวก็หายไปด้วย
+ทาง racksync ได้มีการ build firmware tasmota ที่เป็นเวอร์ชั่นเฉพาะเพื่อใช้เป็นการภายในและเซ็ทอัพจัดจำหน่ายให้ลูกค้าเดิมอยู่เป็นปกติอยู่แล้วครับ แต่เนื่องจากปัจจุบันอุปกรณ์เหล่านี้ได้มีการอัพเดทถี่และบ่อยขึ้น ในแง่ของการบริหารจัดการนั้น หากเป็นอุปกรณ์เพียงไม่กี่ตัว ย่อมไม่เกิดปัญหา แต่เมื่อไรก็ตามที่จะต้องมีการแฟลชเป็นจำนวนมากปัญหาที่ตามมาคือการใช้เวลาในการตั้งค่าที่นานขึ้น
+
+ทาง racksync จึงมองเห็นว่าการนำ firmware ที่ได้มีการปรับแต่งค่าพื้นฐาน  โดยเซ็ทอัพค่าตั้งต้นที่นิยมใช้กันบ่อยๆ มาเป็นค่า default และแยกค่าสำคัญสำหรับแต่ละ module ฝังมาใน firmware เลย จะช่วยให้ผู้ใช้หรือแม้แต่ทีมช่างเองมีความสะดวกขึ้น 
+ทาง racksync จึงได้เปิด repository สำหรับเผยแพร่ไฟล์ firmware ที่ได้มีการ optimize มาพร้อมใช้เพื่อแจกจ่ายให้สมาชิกได้นำไปใช้งานโดยไม่มีมูลค่าใดๆ
+ทั้งนี้เนื่องจาก firmware ได้มีการปรับแต่งค่าต่างๆ ไปพอสมควรโดยเฉพาะการคอนฟิค แนะนำให้อ่านคู่มืออย่างละเอียดก่อนใช้งานนะครับ
+หากพบปัญหาสามารถแจ้งที่ issue หรือ dm มาโดยตรงหรือที่เพจ บ. ได้เลยครับ
+
+
+
 # DISCLAIMER!
 
 The firmware provided in this repository "IS NOT AN OFFICIAL" and intended for informational and educational purposes only. By using this firmware, you acknowledge and agree that you do so entirely at your own risk.
@@ -43,7 +54,7 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 
 ## Web Config Authentication
 
-First try you can access: (eg: ```http://192.168.4.1:8099```) to setup the SSID Credentials.1. 
+First try you can access: (eg: ```http://192.168.4.1:8099```) to setup the SSID Credentials. 
 
 |                            |                      |
 | ------------------------- | ----------------------------------  |
@@ -77,7 +88,6 @@ Choose the right method for each module that matches your device model from  [``
 |  Sonoff M5 1C             |    ```sonoff_m5_1c.factory.bin```     | ```sonoff_m5_1c.bin```                     |
 |  Sonoff M5 2C             | ```sonoff_m5_2c.factory.bin```        | ```sonoff_m5_2c.bin```                     |
 |  Sonoff M5 3C             |  ```sonoff_m5_3c.factory.bin```       |      ```sonoff_m5_3c.bin```                |
-|                           |                                       |                                                   |
 
 ## How to Over-the-Air Upgrade?
 
