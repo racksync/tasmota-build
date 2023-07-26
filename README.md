@@ -2,7 +2,7 @@
 
 [![tasmota-build-release](https://img.shields.io/github/v/release/racksync/tasmota-build)](https://github.com/racksync/tasmota-build) [![last commit](https://img.shields.io/github/last-commit/racksync/tasmota-build)](https://github.com/racksync/tasmota-build)
 
-# วัตถุประสงค์:
+# วัตถุประสงค์
 เชื่อว่าหลายท่านน่าจะประสบแบบเดียวกันเยอะ คือเมื่อ flash tasmota ลงไปบน iot device แล้วจะต้องมานั่งเซ็ทอัพค่าพื้นฐาน เช่น teleperiod, timezone, powercycle disable และค่าอื่นๆ อีกมากมาย ซึ่งค่อนข้างใช้เวลาพอสมควร แถมเมื่ออุปกรณ์มีการ reset ตัวอุปกรณ์ ค่าดังกล่าวก็หายไปด้วย
 ทาง racksync ได้มีการ build firmware tasmota ที่เป็นเวอร์ชั่นเฉพาะเพื่อใช้เป็นการภายในและเซ็ทอัพจัดจำหน่ายให้ลูกค้าเดิมอยู่เป็นปกติอยู่แล้วครับ แต่เนื่องจากปัจจุบันอุปกรณ์เหล่านี้ได้มีการอัพเดทถี่และบ่อยขึ้น ในแง่ของการบริหารจัดการนั้น หากเป็นอุปกรณ์เพียงไม่กี่ตัว ย่อมไม่เกิดปัญหา แต่เมื่อไรก็ตามที่จะต้องมีการแฟลชเป็นจำนวนมากปัญหาที่ตามมาคือการใช้เวลาในการตั้งค่าที่นานขึ้น
 
