@@ -2,6 +2,15 @@
 
 [![tasmota-build-release](https://img.shields.io/github/v/release/racksync/tasmota-build)](https://github.com/racksync/tasmota-build) [![last commit](https://img.shields.io/github/last-commit/racksync/tasmota-build)](https://github.com/racksync/tasmota-build)
 
+# DISCLAIMER!
+
+The firmware provided in this repository "IS NOT AN OFFICIAL" and intended for informational and educational purposes only. By using this firmware, you acknowledge and agree that you do so entirely at your own risk.
+
+The authors has no responsibility for your use of this firmware. It is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement.
+
+Please conduct thorough testing before implementing this firmware in a live or production environment. **PLEASE USE AT YOUR OWN RISK!**
+
+
 ## What's Tasmota?
 
 Tasmota easily integrates with many home automation solutions reporting status and sensor data and allowing complete control. Tasmota contains myriad features and supported peripherals (sensors, controllers and similar). Due to the flash size and memory constraints of ESP not all features can be included in precompiled release binaries.
@@ -32,12 +41,24 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 - Change Webserver port to another 
 - Enable Web Authentication 
 
+## Web Config Authentication
+
+First try you can access: (eg: ```http://192.168.4.1:8099```) to setup the SSID Credentials.1. 
+
+|                            |                      |
+| ------------------------- | ----------------------------------  |
+|  Port                     | ```8099```                  |
+|  Username               | ```admin```                   |
+|  Password             |      ```racksync```            | 
+|                            |                      |
+
 
 
 ## Preconfigured Module
 
-Choose the right method for each module that matches your device model.
 
+
+Choose the right method for each module that matches your device model from  [```firmware```](https://github.com/racksync/tasmota-build/tree/main/firmware) directory.
 
 | Module                    | Serial Flash                          | OTA Upgrade                            |
 | ------------------------- | ------------------------------------- | ----------------------------------------   |
@@ -56,6 +77,7 @@ Choose the right method for each module that matches your device model.
 |  Sonoff M5 1C             |    ```sonoff_m5_1c.factory.bin```     | ```sonoff_m5_1c.bin```                     |
 |  Sonoff M5 2C             | ```sonoff_m5_2c.factory.bin```        | ```sonoff_m5_2c.bin```                     |
 |  Sonoff M5 3C             |  ```sonoff_m5_3c.factory.bin```       |      ```sonoff_m5_3c.bin```                |
+|                           |                                       |                                                   |
 
 ## How to Over-the-Air Upgrade?
 
