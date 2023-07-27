@@ -54,15 +54,7 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 ## Web Config Authentication
 
 1. First try you can access: (eg: ```http://192.168.4.1```) to setup the SSID Credentials. 
-2. Get into Tasmota web configuration with following username & password as well.
-3. When you successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip:8099```
-
-|  Override Parameters                          |       New Value               |
-| ------------------------- | ----------------------------------  |
-|  Port                     | ```8099```                  |
-|  Username               | ```admin```                   |
-|  Password             |      ```racksync```            | 
-|                            |                      |
+2. When you successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip```
 
 
 
