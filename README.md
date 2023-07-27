@@ -66,32 +66,32 @@ Choose the right method for each module that matches your device model from  [``
 
 | Module                    | Serial Flash                          | OTA Upgrade                            |
 | ------------------------- | ------------------------------------- | ----------------------------------------   |
-|  Sonoff 4CH               | ```sonoff_4ch.bin```                  | ```sonoff_4ch.bin.gz```                     |       
-|  Sonoff 4CH Pro           | ```sonoff_4ch_pro.bin```              | ```sonoff_4ch_pro.bin.gz```                |  
-|  Sonoff Basic             | ```sonoff_basic.bin```                | ```sonoff_basic.bin.gz```                  |  
-|  Sonoff Mini R2           |   ```sonoff_mini.bin```               |     ```sonoff_mini.bin.gz```             |
-|  Sonoff POW Origin (R316) | ```sonoff_pow_origin.factory.bin```   |    ```sonoff_pow_origin.bin```             |
-|  Sonoff POW R3            | ```sonoff_pow_r3.bin```               |  ```sonoff_pow_r3.bin.gz```             |
-|  Sonoff S31               |```sonoff_s31.bin```                   |  ```sonoff_s31.bin.gz```               |
-|  Sonoff SV                | ```sonoff_sv.bin```                   |    ```sonoff_sv.bin.gz```                |
-|  Sonoff TH (Original)     | ```sonoff_th.bin```                   |        ```sonoff_th.bin.gz```          |
-|  Sonoff TX 1C             |  ```sonoff_tx_1c.bin```               |  ```sonoff_tx_1c.bin.gz```             |
-|  Sonoff TX 2C             | ```sonoff_tx_2c.bin```                |    ```sonoff_tx_2c.bin.gz```                |
-|  Sonoff TX 3C             |  ```sonoff_tx_3c.bin```               |     ```sonoff_tx_3c.bin.gz```               |
-|  Sonoff M5 1C             |    ```sonoff_m5_1c.factory.bin```     | ```sonoff_m5_1c.bin```                     |
-|  Sonoff M5 2C             | ```sonoff_m5_2c.factory.bin```        | ```sonoff_m5_2c.bin```                     |
-|  Sonoff M5 3C             |  ```sonoff_m5_3c.factory.bin```       |      ```sonoff_m5_3c.bin```                |
+|  Sonoff 4CH               | ```racksync_sonoff_4ch.bin```                  | ```racksync_sonoff_4ch.bin.gz```                     |       
+|  Sonoff 4CH Pro           | ```racksync_sonoff_4ch_pro.bin```              | ```racksync_sonoff_4ch_pro.bin.gz```                |  
+|  Sonoff Basic             | ```racksync_sonoff_basic.bin```                | ```racksync_sonoff_basic.bin.gz```                  |  
+|  Sonoff Mini R2           |   ```racksync_sonoff_mini_r2.bin```               |     ```racksync_sonoff_mini_r2.bin.gz```             |
+|  Sonoff POW Origin (R316) | ```racksync_sonoff_pow_origin.factory.bin```   |    ```racksync_sonoff_pow_origin.bin```             |
+|  Sonoff POW R3            | ```racksync_sonoff_pow_r3.bin```               |  ```racksync_sonoff_pow_r3.bin.gz```             |
+|  Sonoff S31               |```racksync_sonoff_s31.bin```                   |  ```racksync_sonoff_s31.bin.gz```               |
+|  Sonoff SV                | ```racksync_sonoff_sv.bin```                   |    ```racksync_sonoff_sv.bin.gz```                |
+|  Sonoff TH (Original)     | ```racksync_sonoff_th.bin```                   |        ```racksync_sonoff_th.bin.gz```          |
+|  Sonoff TX 1C             |  ```racksync_sonoff_tx_1c.bin```               |  ```racksync_sonoff_tx_1c.bin.gz```             |
+|  Sonoff TX 2C             | ```racksync_sonoff_tx_2c.bin```                |    ```racksync_sonoff_tx_2c.bin.gz```                |
+|  Sonoff TX 3C             |  ```racksync_sonoff_tx_3c.bin```               |     ```racksync_sonoff_tx_3c.bin.gz```               |
+|  Sonoff M5 1C             |    ```racksync_sonoff_m5_1c.factory.bin```     | ```racksync_sonoff_m5_1c.bin```                     |
+|  Sonoff M5 2C             | ```racksync_sonoff_m5_2c.factory.bin```        | ```racksync_sonoff_m5_2c.bin```                     |
+|  Sonoff M5 3C             |  ```racksync_sonoff_m5_3c.factory.bin```       |      ```racksync_sonoff_m5_3c.bin```                |
 
 ## How to Over-the-Air Upgrade?
 
 ### ESP8266 OTA 
 
 1. To prevent out-of-space issue, Upload the original ```tasmota-minimal.bin.gz``` via web upgrade once.
-2. Upload desire firmware file (eg: ```sonoff_basic.bin```) then.
+2. Upload desire firmware file (eg: ```racksync_sonoff_basic.bin```) then.
 
 ### ESP32 OTA
 
-1. Upload the module firmware (eg: ```sonoff_pow_origin.bin```) via web upgrade to entering safe boot.
+1. Upload the module firmware (eg: ```racksync_sonoff_pow_origin.bin```) via web upgrade to entering safe boot.
 2. Upload that firmware again. 
 
 
