@@ -12,7 +12,6 @@
 หากพบปัญหาสามารถแจ้งที่ issue หรือ dm มาโดยตรงหรือที่เพจ บ. ได้เลยครับ
 
 
-
 # DISCLAIMER!
 
 The firmware provided in this repository "IS NOT AN OFFICIAL" and intended for informational and educational purposes only. By using this firmware, you acknowledge and agree that you do so entirely at your own risk.
@@ -54,9 +53,11 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 
 ## Web Config Authentication
 
-First try you can access: (eg: ```http://192.168.4.1:8099```) to setup the SSID Credentials. 
+1. First try you can access: (eg: ```http://192.168.4.1```) to setup the SSID Credentials. 
+2. Get into Tasmota web configuration with following username & password as well.
+3. When you successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip:8099```
 
-|                            |                      |
+|  Override Parameters                          |       New Value               |
 | ------------------------- | ----------------------------------  |
 |  Port                     | ```8099```                  |
 |  Username               | ```admin```                   |
