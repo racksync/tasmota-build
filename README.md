@@ -66,8 +66,9 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 
 ## Web Configuration
 
-1. First try you can access: (eg: [```http://192.168.4.1```](http://192.168.4.1) ) to setup the SSID Credentials. 
-2. When you successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip```
+1. Just connect to AP Fallback Name : ```RACKSYNC_XXXX```
+2. Access (eg: [```http://192.168.4.1```](http://192.168.4.1)) to setup the SSID Credentials. 
+2. When device successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip-address```
 
 
 
