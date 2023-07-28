@@ -15,10 +15,10 @@
 |  NO    | Content   |
 |-----|-----|
 | 1 |[DISCLAIMER!](#disclaimer!) | 
-| 2|[What's Tasmota?](##what's-tasmota?) | 
-| 3 |[Original Problem](##original-problem) | 
-| 4 |[Parameters List](##preconfigured-parameters-list) | 
-| 5 | [Community](###-community)  |
+| 2|[What's Tasmota?](#what's-tasmota?) | 
+| 3 |[Original Problem](#original-problem) | 
+| 4 |[Parameters List](#preconfigured-parameters-list) | 
+| 5 | [Community](#community)  |
 
 
 
