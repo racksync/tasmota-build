@@ -96,7 +96,7 @@ Choose the right method for each module that matches your device model from  [``
 2. Upload that firmware again. 
 
 
-<!-- ![racksync-screenshot](https://github.com/racksync/hass-addons-cloudflared-tunnel/blob/main/zerotrust/screenshot.png?raw=true) -->
+![racksync-screenshot](https://github.com/racksync/tasmota-build/blob/main/assets/screenshot.png?raw=true) 
 
 ### Links
 
