@@ -92,21 +92,4 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-
-secrets.json
-
-zigbee2mqtt/rootfs
-zigbee2mqtt-edge/rootfs
+preconf/
