@@ -64,11 +64,15 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 
 Choose the right method for each module that matches your device model from  [```firmware```](https://github.com/racksync/tasmota-build/tree/main/firmware) directory.
 
+
+
+
+
 | Module                    | Serial Flash                          | OTA Upgrade                            |
-| ------------------------- | ------------------------------------- | ----------------------------------------   |
-|  Sonoff 4CH               | ```racksync_sonoff_4ch.bin```                  | ```racksync_sonoff_4ch.bin.gz```                     |       
-|  Sonoff 4CH Pro           | ```racksync_sonoff_4ch_pro.bin```              | ```racksync_sonoff_4ch_pro.bin.gz```                |  
-|  Sonoff Basic             | ```racksync_sonoff_basic.bin```                | ```racksync_sonoff_basic.bin.gz```                  |  
+| ------------------------- | ------------------------------------- | ----------------------------------------   |  
+|  Sonoff 4CH               | [```racksync_sonoff_4ch.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch.bin)   | [```racksync_sonoff_4ch.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch.bin.gz)                    |       
+|  Sonoff 4CH Pro           | [```racksync_sonoff_4ch_pro.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch_pro.bin)         |  [```racksync_sonoff_4ch_pro.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch_pro.bin.gz)               |  
+|  Sonoff Basic             |   [```racksync_sonoff_basic.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic.bin)              |   [```racksync_sonoff_basic.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic.bin.gz)                 |  
 |  Sonoff Mini R2           |   ```racksync_sonoff_mini_r2.bin```               |     ```racksync_sonoff_mini_r2.bin.gz```             |
 |  Sonoff POW Origin (R316) | ```racksync_sonoff_pow_origin.factory.bin```   |    ```racksync_sonoff_pow_origin.bin```             |
 |  Sonoff POW R3            | ```racksync_sonoff_pow_r3.bin```               |  ```racksync_sonoff_pow_r3.bin.gz```             |
