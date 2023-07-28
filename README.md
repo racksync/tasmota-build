@@ -14,11 +14,14 @@
 # Guide Index
 |  NO    | Content   |
 |-----|-----|
-| 1 |[DISCLAIMER!](#disclaimer!) | 
-| 2|[What's Tasmota?](#what's-tasmota?) | 
-| 3 |[Original Problem](#original-problem) | 
-| 4 |[Parameters List](#preconfigured-parameters-list) | 
-| 5 | [Community](#community)  |
+| 1 |[DISCLAIMER!](#disclaimer) | 
+| 2 |[Original Problem](#original-problem) | 
+| 3 |[Parameters List](#preconfigured-parameters-list) | 
+| 4 | [Web Configuration](#web-configuration) |
+| 5 | [Download](#downlad) |
+| 6 | [Upgrade](#how-to-over-the-air-upgrade) |
+
+
 
 
 
@@ -62,7 +65,7 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 - Change Webserver port to another 
 - Enable Web Authentication 
 
-## Web Config Authentication
+## Web Configuration
 
 1. First try you can access: (eg: [```http://192.168.4.1```](http://192.168.4.1) ) to setup the SSID Credentials. 
 2. When you successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip```
