@@ -14,7 +14,7 @@
 
 # DISCLAIMER!
 
-The firmware provided in this repository "IS NOT AN OFFICIAL" and intended for informational and educational purposes only. By using this firmware, you acknowledge and agree that you do so entirely at your own risk.
+The firmware provided in this repository has been fork from an [Official](https://github.com/arendst/Tasmota) and Recompile at [Tasmota](https://github.com/racksync/Tasmota) then republish by github workflows and intended for informational and educational purposes only. By using this firmware, you acknowledge and agree that you do so entirely at your own risk.
 
 The authors has no responsibility for your use of this firmware. It is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement.
 
@@ -34,15 +34,15 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 
 ## Preconfigured Parameters List
 
-- Change different config holder to avoid parameter conflict 
-- Use uppercase as project name 
+- Change different ```CONFIG_HOLDER``` to avoid strange behavior from parameter conflict
+- Use ```UPPERCASE``` as project name 
 - Specific Module for each device
-- Avoid default module reset (incase of factory reset)  
+- Avoid default module fallback (incase of factory reset)  
 - Correct GPIO template for none module device 
 - Enable mDNS by default 
 - Provide access to webserver by  ```hostname.local``` 
 - Reduce teleperiod time to ```10s``` 
-- Setup default MQTT Host to mostly use as ```homeassistant.local``` 
+- Setup MQTT Host to ```homeassistant.local``` as default
 - Specific Timezone for UTC+7 
 - Enable LED Status as POWER 
 - Disable fast power cycle detection for device reset by power failure issue
@@ -53,38 +53,35 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 
 ## Web Config Authentication
 
-1. First try you can access: (eg: ```http://192.168.4.1```) to setup the SSID Credentials. 
+1. First try you can access: (eg: [```http://192.168.4.1```](http://192.168.4.1) ) to setup the SSID Credentials. 
 2. When you successfully connected to Wi-Fi Network you can login to Tasmota web configuration with ```http://new-ip```
 
 
 
-## Preconfigured Module
-
+## Download
 
 
 Choose the right method for each module that matches your device model from  [```firmware```](https://github.com/racksync/tasmota-build/tree/main/firmware) directory.
 
 
+| Module                    | Serial Flash                          | OTA Upgrade                                                                                                                                                                                                                                                       |
+| ------------------------- | ------------------------------------- | ----------------------------------------                                                                                                                                                                                                                          |          
+|  Sonoff 4CH               | [```racksync_sonoff_4ch.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch.bin)                                     | [```racksync_sonoff_4ch.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch.bin.gz)                              |       
+|  Sonoff 4CH Pro           | [```racksync_sonoff_4ch_pro.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch_pro.bin)                             | [```racksync_sonoff_4ch_pro.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch_pro.bin.gz)                      |  
+|  Sonoff Basic             | [```racksync_sonoff_basic.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic.bin)                                 | [```racksync_sonoff_basic.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic.bin.gz)                          |  
+|  Sonoff Mini R2           | [```racksync_sonoff_mini_r2.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_mini_r2.bin)                             | [```racksync_sonoff_mini_r2.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_mini_r2.bin.gz)                         |
+|  Sonoff POW Origin (R316) | [```racksync_sonoff_pow_origin.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_origin.factory.bin)       | [```racksync_sonoff_pow_origin.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_origin.bin)                         |
+|  Sonoff POW R3            | [```racksync_sonoff_pow_r3.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_r3.bin)                             | [```racksync_sonoff_pow_r3.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_r3.bin.gz)                         |
+|  Sonoff S31            | [```racksync_sonoff_s31.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_s31.bin)                             | [```racksync_sonoff_s31.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_s31.bin.gz)                         |
+|  Sonoff SV           | [```racksync_sonoff_sv.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_sv.bin)                             | [```racksync_sonoff_sv.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_sv.bin.gz)                         |
+|  Sonoff TH (Original)            | [```racksync_sonoff_th.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_th.bin)                             | [```racksync_sonoff_th.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_th.bin.gz)                         |
+|  Sonoff TX 1C             | [```racksync_sonoff_tx_1c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_tx_1c.bin)                             | [```racksync_sonoff_tx_1c.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_tx_1c.bin.gz)                         |
+|  Sonoff TX 2C             | [```racksync_sonoff_tx_2c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_tx_2c.bin)                             | [```racksync_sonoff_tx_2c.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_tx_2c.bin.gz)                         |
+|  Sonoff TX 3C             | [```racksync_sonoff_tx_3c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_tx_3c.bin)                             | [```racksync_sonoff_tx_3c.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_tx_3c.bin.gz)                         |
+|  Sonoff M5 1C             | [```racksync_sonoff_m5_1c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_1c.factory.bin)                             | [```racksync_sonoff_m5_1c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_1c.bin)                         |
+|  Sonoff M5 2C             | [```racksync_sonoff_m5_2c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_2c.factory.bin)                             | [```racksync_sonoff_m5_2c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_2c.bin)                         |
+|  Sonoff M5 3C             | [```racksync_sonoff_m5_3c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_3c.factory.bin)                             | [```racksync_sonoff_m5_3c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_3c.bin)                         |
 
-
-
-| Module                    | Serial Flash                          | OTA Upgrade                            |
-| ------------------------- | ------------------------------------- | ----------------------------------------   |  
-|  Sonoff 4CH               | [```racksync_sonoff_4ch.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch.bin)   | [```racksync_sonoff_4ch.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch.bin.gz)                    |       
-|  Sonoff 4CH Pro           | [```racksync_sonoff_4ch_pro.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch_pro.bin)         |  [```racksync_sonoff_4ch_pro.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_4ch_pro.bin.gz)               |  
-|  Sonoff Basic             |   [```racksync_sonoff_basic.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic.bin)              |   [```racksync_sonoff_basic.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic.bin.gz)                 |  
-|  Sonoff Mini R2           |   ```racksync_sonoff_mini_r2.bin```               |     ```racksync_sonoff_mini_r2.bin.gz```             |
-|  Sonoff POW Origin (R316) | ```racksync_sonoff_pow_origin.factory.bin```   |    ```racksync_sonoff_pow_origin.bin```             |
-|  Sonoff POW R3            | ```racksync_sonoff_pow_r3.bin```               |  ```racksync_sonoff_pow_r3.bin.gz```             |
-|  Sonoff S31               |```racksync_sonoff_s31.bin```                   |  ```racksync_sonoff_s31.bin.gz```               |
-|  Sonoff SV                | ```racksync_sonoff_sv.bin```                   |    ```racksync_sonoff_sv.bin.gz```                |
-|  Sonoff TH (Original)     | ```racksync_sonoff_th.bin```                   |        ```racksync_sonoff_th.bin.gz```          |
-|  Sonoff TX 1C             |  ```racksync_sonoff_tx_1c.bin```               |  ```racksync_sonoff_tx_1c.bin.gz```             |
-|  Sonoff TX 2C             | ```racksync_sonoff_tx_2c.bin```                |    ```racksync_sonoff_tx_2c.bin.gz```                |
-|  Sonoff TX 3C             |  ```racksync_sonoff_tx_3c.bin```               |     ```racksync_sonoff_tx_3c.bin.gz```               |
-|  Sonoff M5 1C             |    ```racksync_sonoff_m5_1c.factory.bin```     | ```racksync_sonoff_m5_1c.bin```                     |
-|  Sonoff M5 2C             | ```racksync_sonoff_m5_2c.factory.bin```        | ```racksync_sonoff_m5_2c.bin```                     |
-|  Sonoff M5 3C             |  ```racksync_sonoff_m5_3c.factory.bin```       |      ```racksync_sonoff_m5_3c.bin```                |
 
 ## How to Over-the-Air Upgrade?
 
