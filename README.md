@@ -62,8 +62,7 @@ Tasmota firmware comes with many configurable parameters that are not set to pro
 - Disable fast power cycle detection for device reset by power failure issue
 - Relay power on state as ```off``` 
 - Enable factory reset by button (Most first button or GPIO0) 
-- Change Webserver port to another 
-- Enable Web Authentication 
+
 
 ## Web Configuration
 
