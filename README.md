@@ -11,6 +11,16 @@
 ทั้งนี้เนื่องจาก firmware ได้มีการปรับแต่งค่าต่างๆ ไปพอสมควรโดยเฉพาะการคอนฟิค แนะนำให้อ่านคู่มืออย่างละเอียดก่อนใช้งานนะครับ
 หากพบปัญหาสามารถแจ้งที่ issue หรือ dm มาโดยตรงหรือที่เพจ บ. ได้เลยครับ
 
+# Guide Index
+|  NO    | Content   |
+|-----|-----|
+| 1 |[DISCLAIMER!](#DISCLAIMER!) | 
+| 2|[What's Tasmota?](#What's-Tasmota?) | 
+| 3 |[Original Problem](#Original-Problem) | 
+| 4 |[DISCLAIMER!](#DISCLAIMER!) | 
+
+
+
 
 # DISCLAIMER!
 
