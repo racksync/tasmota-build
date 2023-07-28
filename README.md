@@ -101,7 +101,7 @@ Choose the right method for each module that matches your device model from  [``
 
 ### ESP8266 OTA 
 
-1. To prevent out-of-space issue, Upload the original ```tasmota-minimal.bin.gz``` via web upgrade once.
+1. To prevent out-of-space issue, Upload the original [```tasmota-minimal.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/tasmota-minimal.bin.gz) via web upgrade once.
 2. Upload desire firmware file (eg: ```racksync_sonoff_basic.bin```) then.
 
 ### ESP32 OTA
