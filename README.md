@@ -15,8 +15,8 @@
 |  NO    | Content   |
 |-----|-----|
 | 1 |[DISCLAIMER!](#DISCLAIMER!) | 
-| 2|[What's Tasmota?](#What's-Tasmota?) | 
-| 3 |[Original Problem](#Original-Problem) | 
+| 2|[What's Tasmota?](##What's-Tasmota?) | 
+| 3 |[Original Problem](##Original-Problem) | 
 | 4 |[DISCLAIMER!](#DISCLAIMER!) | 
 
 
