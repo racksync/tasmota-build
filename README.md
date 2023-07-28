@@ -18,7 +18,7 @@
 | 2 |[Original Problem](#original-problem) | 
 | 3 |[Parameters List](#preconfigured-parameters-list) | 
 | 4 | [Web Configuration](#web-configuration) |
-| 5 | [Download](#downlad) |
+| 5 | [Download](#download) |
 | 6 | [Upgrade](#how-to-over-the-air-upgrade) |
 
 
