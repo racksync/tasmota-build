@@ -96,6 +96,13 @@ Choose the right method for each module that matches your device model from  [``
 |  Sonoff M5 2C             | [```racksync_sonoff_m5_2c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_2c.factory.bin)                             | [```racksync_sonoff_m5_2c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_2c.bin)                         |
 |  Sonoff M5 3C             | [```racksync_sonoff_m5_3c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_3c.factory.bin)                             | [```racksync_sonoff_m5_3c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_m5_3c.bin)                         |
 
+## TLS Support Firmware
+
+
+| Module                    | Serial Flash                          | OTA Upgrade                                                                                                                                                                                                                                                       |
+| ------------------------- | ------------------------------------- | ----------------------------------------                                                                                                                                                                                                                          |          
+|  Sonoff Basic (TLS)              | [```racksync_sonoff_basic_tls.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic_tls.bin)                                     | [```racksync_sonoff_basic_tls.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic_tls.bin.gz)                              |       
+
 
 ## How to Over-the-Air Upgrade?
 
