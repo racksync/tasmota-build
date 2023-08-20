@@ -103,6 +103,10 @@ Choose the right method for each module that matches your device model from  [``
 | ------------------------- | ------------------------------------- | ----------------------------------------                                                                                                                                                                                                                          |          
 |  Sonoff Basic (TLS)              | [```racksync_sonoff_basic_tls.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic_tls.bin)                                     | [```racksync_sonoff_basic_tls.bin.gz```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_basic_tls.bin.gz)                              |       
 
+## Experimental Firmware
+
+Out-of-The-List Please use [```experiment```](https://github.com/racksync/tasmota-build/tree/main/experiment)
+
 
 ## How to Over-the-Air Upgrade?
 
