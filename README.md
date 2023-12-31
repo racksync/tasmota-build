@@ -99,7 +99,15 @@ Choose the right method for each module that matches your device model from  [``
 |  Sonoff T5 2C             | [```racksync_sonoff_t5_2c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_t5_2c.factory.bin)                             | [```racksync_sonoff_t5_2c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_t5_2c.bin)                         |
 |  Sonoff T5 3C             | [```racksync_sonoff_t5_3c.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_t5_3c.factory.bin)                             | [```racksync_sonoff_t5_3c.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_t5_3c.bin)                         |
 |  Sonoff Mini R4             | [```racksync_sonoff_mini_r4.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_mini_r4.factory.bin)                             | [```racksync_sonoff_mini_r4.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_mini_r4.bin)                         |
-|  Sonoff TH Elite (THR316D)         | [```racksync_sonoff_thr316d.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_thr316d.factory.bin)                             | [```racksync_sonoff_thr316d.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_thr316d.bin)                         |
+|  Sonoff TH Elite (THR316)         | [```racksync_sonoff_th_r316.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_th_r316.factory.bin)                             | [```racksync_sonoff_th_r316.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_th_r316.bin)                         |
+
+|  Sonoff TH Elite (THR316D)         | [```racksync_sonoff_th_r316d.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_th_r316d.factory.bin)                             | [```racksync_sonoff_th_r316d.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_th_r316d.bin)                         |
+
+|  Sonoff POW Elite (POW R316)         | [```racksync_sonoff_pow_r316.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_r316.factory.bin)                             | [```racksync_sonoff_pow_r316.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_r316.bin)                         |
+
+|  Sonoff POW Elite (POW R320D)         | [```racksync_sonoff_pow_r320d.factory.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_r320d.factory.bin)                             | [```racksync_sonoff_pow_r320d.bin```](https://github.com/racksync/tasmota-build/tree/main/firmware/racksync_sonoff_pow_r320d.bin)                         |
+
+
 
 
 ## TLS Support Firmware
